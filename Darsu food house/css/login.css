@@ -1,0 +1,187 @@
+.login {
+  background-color: #e46f62; /* The rich red background color */
+  color: #ffffff;            /* Pure white text */
+  text-align: center;        /* Centers your text and image completely */
+  padding: 40px 20px;        /* Adds breathing room at the top, bottom, and sides */
+  border-top-left-radius: 30px;  /* Smoothly rounds the top corners */
+  border-top-right-radius: 30px;
+}
+.login-image {
+  width: 450;             
+  height: 60px;
+  object-fit: cover;        
+  border-radius: 20px;        
+  margin-bottom: 15px;       
+}
+.login h2 {
+  font-size: 1.8rem;         
+  margin: 0 0 8px 0;        
+  font-family: 'Georgia', serif;
+  text-shadow: 0 0 5px rgba(230, 183, 183, 0.7); 
+}
+  
+.login p {
+  font-size: 0.9rem;        
+  color: rgba(255, 255, 255, 0.85); 
+  margin: 0;       
+  text-shadow: 0 0 5px rgba(240, 195, 195, 0.7);          
+}
+.login h2,
+.login p {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login h2:hover,
+.login p:hover {
+  color: #762929;
+  text-shadow: 0 0 8px rgba(216, 134, 134, 0.7);
+}
+
+.role-section {
+    width: 600px;
+    margin: 25px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(147, 38, 38, 0.5);
+    text-align: center;
+    position: relative;
+    top: -50px;   /* moves it upward → creates overlap */
+}
+
+.role-title {
+    font-size: 0.9rem;
+    color: #888888;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+
+.role-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; /* Puts space between each button */
+    padding: 0 10px;
+}
+.role-btn {
+    flex: 1; /* Makes all three buttons the exact same width */
+    background-color: #e46f62; /* Light grey background for unselected roles */
+    color: #fffafa;            /* Dark grey text */
+    border: none;
+    padding: 12px 0;
+    border-radius: 30px;       /* Makes them look like rounded capsules */
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: 'times new roman', sans-serif;
+
+}
+.role-btn {
+    transition: all 0.2s ease;
+}
+/* Hover effect */
+.role-btn:hover {
+    background-color: #efb7b1;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+/* Click (active) effect */
+.role-btn:active {
+    transform: scale(0.100);
+}
+
+.login-form {
+  width: 410px;
+    margin: 40px auto 20px auto;
+  padding: 25px;
+  background: #efb7b1;
+  border-radius: 20px;
+  box-shadow: 0 5px 12px rgba(228, 111, 98, 0.4);
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: left;
+  color: #5f5d5d;
+  margin-top: 15px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  /* Smooth animation */
+  transition: all 0.3s ease;
+}
+.login-form input:focus {
+  outline: none;
+  border-color: #e46f62;
+  box-shadow: 0 0 10px rgba(228, 111, 98, 0.4);
+}
+
+.login-form p {
+  text-align: right;
+  color: #c0392b;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: -5px;
+  transition: color 0.3s ease;
+
+}
+.login-form p:hover {
+  text-decoration: underline;
+  color: #a93226;
+}
+
+button {
+  width: 60%;
+  padding: 12px;
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  margin-top: 20px;
+  height: 60px;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #a93226;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+/* Click effect */
+button:active {
+  transform: scale(0.100);
+}
+.sanu {
+  width: 100%;
+  text-align: center;
+  color: #c0392b;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 25px
+}
+.pukulu {
+  text-align: center;
+  color: #c0392b;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+.pukulu:hover {
+  text-decoration: underline;
+  color: #a93226;
+}
